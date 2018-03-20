@@ -10,21 +10,24 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/original"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:background="@drawable/original"
-        />
+        android:src="@drawable/original" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
+        android:background="@drawable/border"
         android:ems="10"
         android:hint="Male"
         android:inputType="textPersonName"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textColor="#f71a5c"
         android:textColorLink="@color/colorAccent"
         android:textSize="25dp" />
@@ -41,7 +44,9 @@
         android:textAllCaps="true"
         android:textColor="#f71a5c"
         android:textColorLink="@color/colorAccent"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"/>
 
     <Button
         android:id="@+id/button"

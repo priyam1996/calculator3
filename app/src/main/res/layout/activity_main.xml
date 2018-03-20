@@ -7,6 +7,13 @@
     android:background="@drawable/original"
     tools:context="com.kuncham.calculator.MainActivity">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/original"
+        android:background="@drawable/original"
+        />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
@@ -18,7 +25,7 @@
         android:hint="Male"
         android:inputType="textPersonName"
         android:textAllCaps="true"
-        android:textColor="#fff"
+        android:textColor="#f71a5c"
         android:textColorLink="@color/colorAccent"
         android:textSize="25dp" />
 
@@ -32,7 +39,7 @@
         android:hint="Female"
         android:inputType="textPersonName"
         android:textAllCaps="true"
-        android:textColor="#fff"
+        android:textColor="#f71a5c"
         android:textColorLink="@color/colorAccent"
         android:textSize="25dp" />
 
@@ -76,5 +83,7 @@
         android:textColor="#000000"
         android:textSize="35dp"
         android:textStyle="bold" />
+
+
 
 </RelativeLayout>
